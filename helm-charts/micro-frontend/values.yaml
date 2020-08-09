@@ -36,7 +36,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
     nginx.ingress.kubernetes.io/use-regex: "true"
   hosts:
-    - host: k8s.linuxinuse.com
+    - host: k8s.globaltechchain.com
       paths: ["/app/.*"]
 
   tls: []
